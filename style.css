@@ -6,9 +6,9 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Francois One', sans-serif;
   line-height: 1.5;
-  background: #F2F2F2;
+  background:rgb(255, 255, 255);
   color: #323232;
 }
 
@@ -37,7 +37,7 @@ a:hover {
   max-width: 960px;
   margin: 40px auto;
   padding: 32px;
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,6 +56,8 @@ section:last-child {
 .section-title {
   font-weight: bold;
   font-size: 18px;
+  float: left;
+  
 }
 
 /***********************************
@@ -64,28 +66,51 @@ section:last-child {
 
 img.avatar {
   width: 130px;
+  float: left;
 }
 
 .my-name {
   font-size: 48px;
   line-height: 1;
+ margin-left: 170px;
 }
 
 .my-title {
   font-size: 24px;
   font-weight: 300;
   color: #236FB2;
+  margin-left: 170px;
+  
 }
+
+.parag {
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 170px;
+  
+  
+}
+
+.paragf {
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 170px;
+  
+  
+}
+
 
 .links {
   display: flex;
   margin: 10px 0 20px 0;
+  margin-left: 170px;
 }
 
 .link-item {
   display: flex;
   align-items: center;
   flex: 1;
+  
 }
 
 .link-item svg {
@@ -100,6 +125,7 @@ img.avatar {
   padding-bottom: 24px;
   margin-bottom: 24px;
   border-bottom: 1px solid lightgrey;
+  
 }
 
 .job:last-child {
@@ -111,11 +137,13 @@ img.avatar {
   justify-content: space-between;
   margin-bottom: 20px;
   font-size: 18px;
+  margin-left: 90px;
 }
 
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+  margin-left: 90px;
 }
 
 /***********************************
@@ -125,12 +153,14 @@ img.avatar {
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  margin-bottom: 24px;
+ 
+  margin-bottom: 14px;
+  margin-top: 20px;
+  margin-left: 95px;
 }
 
 .skills-container ul {
-  margin-left: 20px;
+  display: inline;
   list-style-type: disc;
 }
 
@@ -140,7 +170,8 @@ img.avatar {
 
 .interests-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 190px;
 }
 
 .interests-container img {
